@@ -1,0 +1,4 @@
+PB4: Thêm 1 score_edge mới
+Mỗi vòng lặp: tăng score nếu edge xuất hiện trong lời giải hiện tại
+mỗi lần nén: tạo ra 1 lời giải mới k chứa mấy cạnh kia
+score_edge mới sẽ được cập nhật xuyên suốt toàn bộ thuận toán chứ kp ở mỗi level

@@ -1,0 +1,61 @@
+#run_type: cal
+#run_type: result
+run_type: mt
+#run_type: test
+
+params:
+  L_w: 60
+  L_d: 120
+  staff_velocity: 0.58
+  drone_velocity: 0.83
+  num_staff: 4 # tinh tong khoang cach tu depot toi tung khach hang, roi chia cho van toc, chia tiep cho thoi gian cho
+  num_drone: 4 # toi da chi su dung 3 drone
+  use_ejection: True
+  use_inter: True
+  use_intra: True
+
+data_path: [data/old/100.10.1.txt]
+except_path: []
+
+result_folder: result
+
+multilevel_params:
+  num_level: 3
+  percent_match: 0.2
+  tabu_max_iter: 40
+  
+
+tabu_params:
+  tabu_size: 5
+  max_iter: 500
+  num_runs: 5
+  terminate_iter: 200
+  alpha1: 1
+  alpha2: 1
+  beta: 0.5
+  epsilon: 1e-3
+  use_weights: True
+  action_weights: { "move10": 0.2, "move11": 0.2,
+                    "move20": 0.15, "move21": 0.2,
+                    "move2opt": 0.15, "move01": 0.05, "move02": 0.05 }
+
+ejection:
+  max_level: 2
+
+solver:
+  solver: GUROBI
+  solver_log: false
+  num_worker: -1
+  time_limit: 1800
+  model_params:
+    gurobi: { }
+    cplex: { }
+
+test:
+  data_path: data/old/100.20.1.txt
+  staff: [[6, 16, 17, 61, 31, 85, 27, 75, 11, 33, 23, 45, 81, 58, 30, 64], [20, 26, 9, 46, 66, 87, 97, 96, 38, 71, 92, 90, 76, 13]]
+  drone: [[[24, 69, 52, 43, 79, 60, 67, 100, 50, 80, 57, 59, 91, 70, 8, 94, 22, 51, 93, 2, 4], [95, 99, 32, 28, 55, 7, 49, 39, 86, 42, 74, 41, 77], [73]], [[84, 40, 72, 63, 48, 36, 29, 65, 56, 25, 82, 62, 37, 34, 83, 44, 68, 89, 12, 35, 3, 10, 53, 19, 14, 98, 54], [1, 78, 21, 88, 18, 47, 15, 5]]]
+
+
+result:
+  path: result/gurobi_12_1_1/05182022222138/*.json

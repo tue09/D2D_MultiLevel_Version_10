@@ -1,0 +1,42 @@
+{
+    "type": "tabu",
+    "ws": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/",
+    "TaburesultFolder": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/tabu_result",
+    "MultiLevelresultFolder": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/multilevel_result/",
+    "dataPath": "data/",
+    "dataName": "50.30.1.txt",
+    "dataType": "50",
+    "NumRunPerDataSet": 1,
+    "multiData": false,
+
+    "parameter": {
+        "droneVelocity": 0.83,
+        "techVelocity": 0.58,
+        "numDrone": 3,
+        "numTech": 3,
+        "droneLimitationFlightTime": 120,
+        "sampleLimitationWaitingTime": 60,
+        "use_ejection": true,
+        "use_inter": true,
+        "use_intra": true
+    },
+    "multiLevel_para": {
+        "num_level": 3,
+        "percent_match": 0.2,
+        "tabu_max_ite": 10,
+        "tabu_size": 5
+         
+    },
+    "tabu_para": {
+        "tabuMaxIter": 60,
+        "tabuNumRunPerDataSet": 5,
+        "tabuNotImproveIter": 200,
+        "minTabuDuration": 5,
+        "maxTabuDuration": 10,
+        "tabuAlpha1": 1,
+        "tabuAlpha2": 1,
+        "maxEjectionLevel": 2,
+        "tabuBeta": 0.5,
+        "tabuEpsilon": 1e-3
+    }
+}

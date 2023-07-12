@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\src\\Config.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\src\\Config.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/src/Config.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/src/Config.cpp.obj"
+},
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\src\\Input.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\src\\Input.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/src/Input.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/src/Input.cpp.obj"
+},
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\src\\Solution.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\src\\Solution.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/src/Solution.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/src/Solution.cpp.obj"
+},
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\main.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\main.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/main.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\src\\Utils.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\src\\Utils.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/src/Utils.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/src/Utils.cpp.obj"
+},
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\src\\tabuSearch\\TabuSearch.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\src\\tabuSearch\\TabuSearch.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/src/tabuSearch/TabuSearch.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/src/tabuSearch/TabuSearch.cpp.obj"
+},
+{
+  "directory": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/DASTS2_VERSION8_C.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\DASTS2_VERSION8_C.dir\\src\\multiLevel\\MultiLevel.cpp.obj -c D:\\Users\\ADMIN\\Documents\\0.Study\\Multi_Level\\DASTS2_VERSION8_C\\src\\multiLevel\\MultiLevel.cpp",
+  "file": "D:/Users/ADMIN/Documents/0.Study/Multi_Level/DASTS2_VERSION8_C/src/multiLevel/MultiLevel.cpp",
+  "output": "CMakeFiles/DASTS2_VERSION8_C.dir/src/multiLevel/MultiLevel.cpp.obj"
+}
+]
